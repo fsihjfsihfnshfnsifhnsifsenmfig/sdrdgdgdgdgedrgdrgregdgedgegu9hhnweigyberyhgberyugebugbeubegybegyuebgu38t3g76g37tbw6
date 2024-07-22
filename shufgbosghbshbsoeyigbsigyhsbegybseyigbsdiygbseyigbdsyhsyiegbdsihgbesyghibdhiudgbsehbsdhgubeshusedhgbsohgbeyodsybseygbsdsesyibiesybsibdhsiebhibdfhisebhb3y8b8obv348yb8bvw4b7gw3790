@@ -1,0 +1,23 @@
+_G.AutofarmSettings = {
+    ["AttackMode"] = "2",
+    --// ^ 1 - Fast Punch | 2 - Super Punch - fastest with max moveset
+
+    ["Fps"] = "7",
+    --// ^ Wouldnt recommend going below 5. ^
+
+    ["Codes"] = {
+        "RACE", 
+        "METAL"
+    }, 
+    --// ^ (optional) Codes that will be automatically claimed. ^
+
+    ["Webhook"] = "https://discord.com/api/webhooks/1265023847761969202/U-XNK0U-yVxMNQn5sCfY_nd3YVMitHzItE-FvqnPcqjq4-nUo3tvK7BqanrjUlfNQ0wr",
+    --// ^ (optional) Webhook link that logs will be sent to. ^
+    
+    ["LogInterval"] = "2",
+    --// ^ How often the logs will be sent in minutes.
+    
+    ["Credits"] = "iku autofarm - by @trans"
+}
+
+loadstring(game:HttpGet("https://github.com/applless/RandomScripts/raw/main/IkuAutofarm"))()
