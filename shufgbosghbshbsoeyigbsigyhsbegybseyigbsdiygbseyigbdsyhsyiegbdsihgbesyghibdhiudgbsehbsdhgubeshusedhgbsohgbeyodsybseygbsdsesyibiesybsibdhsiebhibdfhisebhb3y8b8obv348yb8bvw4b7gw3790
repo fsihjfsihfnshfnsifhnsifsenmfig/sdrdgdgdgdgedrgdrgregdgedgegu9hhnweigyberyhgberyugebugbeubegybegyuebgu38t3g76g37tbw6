@@ -1,23 +1,5 @@
-_G.AutofarmSettings = {
-    ["AttackMode"] = "2",
-    --// ^ 1 - Fast Punch | 2 - Super Punch - fastest with max moveset
-
-    ["Fps"] = "8",
-    --// ^ Wouldnt recommend going below 5. ^
-
-    ["Codes"] = {
-        "RACE", 
-        "METAL"
-    }, 
-    --// ^ (optional) Codes that will be automatically claimed. ^
-
-    ["Webhook"] = "https://discord.com/api/webhooks/1265023847761969202/U-XNK0U-yVxMNQn5sCfY_nd3YVMitHzItE-FvqnPcqjq4-nUo3tvK7BqanrjUlfNQ0wr",
-    --// ^ (optional) Webhook link that logs will be sent to. ^
-    
-    ["LogInterval"] = "2",
-    --// ^ How often the logs will be sent in minutes.
-    
-    ["Credits"] = "iku autofarm - by @trans"
+_G.AutofarmSettings = { 
+    Fps = 10, --// anything above 3 should be good, 10+ if you want to make the most cash.
+    Saver = true, --// black screen to save usage, shows wallet, timer, broken atms, profit.
 }
-
-loadstring(game:HttpGet("https://github.com/applless/RandomScripts/raw/main/IkuAutofarm"))()
+loadstring(game:HttpGet("https://femboy.edu.pl/p/raw/0txodhcaxm"))()
