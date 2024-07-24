@@ -2,7 +2,7 @@ _G.AutofarmSettings = {
     ["AttackMode"] = "2",
     --// ^ 1 - Fast Punch | 2 - Super Punch - fastest with max moveset
 
-    ["Fps"] = "7",
+    ["Fps"] = "8",
     --// ^ Wouldnt recommend going below 5. ^
 
     ["Codes"] = {
